@@ -1,0 +1,90 @@
+table
+{
+    border: none;
+}
+td
+{
+    width: 1.5vmax;  
+}
+input
+{
+    width: 5vmax;
+    height:4vmax;
+}
+#equal
+{
+    height: 8vmax;
+}
+#text
+{
+    width: 20.7vmax;
+    font-size: 100%;
+    text-align: right;
+    font-style: italic;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+body
+{
+   margin-left: 40%;
+   margin-top: 30vmin;
+   display: flex;
+   background-color: black;
+}
+#num
+{
+    font-size: 100%; 
+    color: whitesmoke;  
+    border-radius: 30%;
+    /* background-image:linear-gradient( to right,  #b06ab3,#0fb4ca);  */
+    background-color: gray; 
+}
+#num:hover
+{
+    width: 3vmax;
+    height: 3vmax;
+    position: relative;
+    left: 20%;
+    border-radius: 40%;
+    font-size: 80%;
+}
+#clear
+{
+    background-color: rgb(246, 246, 58);
+    border-radius: 30%;
+    font-size: 100%; 
+    color: solid black; 
+    font-weight: bolder;
+}
+#del
+{
+    background-color: rgb(255, 66, 66);
+    border-radius: 30%;
+    font-size: 80%; 
+    color: whitesmoke; 
+    font-weight: bolder;
+}
+#equal
+{
+    background-color: lightgreen;
+    border-radius: 15%;
+    font-size: 100%; 
+    color: solid black; 
+    font-weight: bolder;
+}
+#dot
+{
+    background-color: rgb(115, 162, 188);
+    border-radius: 30%;
+    font-size: 100%; 
+    color: solid black; 
+    font-weight: bolder;
+}
+#op
+{
+    background-color: rgb(216, 112, 193);
+    border-radius: 30%;
+    font-size: 100%; 
+    color: solid black; 
+    font-weight: bolder;
+}
